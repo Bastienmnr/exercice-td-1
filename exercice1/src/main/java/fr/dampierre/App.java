@@ -19,7 +19,8 @@ public class App {
 
         int secondeEcoulee = (heure * 3600 + minute * 60 + seconde) ;
         //afficher les secondes écoulés depuis minuit 
-        System.out.print("Il s'est écoulé "+secondeEcoulee+" depuis minuit" );
+        System.out.print("Il s'est écoulé "+secondeEcoulee+" secondes depuis minuit" );
+        clavier.close();
 
 
 
